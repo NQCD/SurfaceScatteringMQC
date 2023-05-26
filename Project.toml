@@ -1,7 +1,22 @@
 name = "SurfaceScatteringMQC"
 authors = ["James Gardner"]
-[compat]
-julia = "1.8.0"
-DrWatson = "2.11.1"
+
 [deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+JamesPlots = "65b38e5c-fa97-498f-814c-2dc0ae7de8a9"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NQCDynamics = "36248dfb-79eb-4f4d-ab9c-e29ea5f33e14"
+NQCModels = "c814dc9f-a51f-4eaf-877f-82eda4edad48"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
+
+[compat]
+DrWatson = "2.11.1"
+julia = "1.8.0"
